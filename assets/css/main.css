@@ -397,6 +397,9 @@ html {
   font-weight: 300;
   margin-top: 18px;
 }
+.main .grid .container .blocks .content .steep-basic .basic.close {
+  height: 50px;
+}
 .main .grid .container .blocks .content .steep-basic .basic {
   margin-right: -15px;
   margin-left: 15px;
@@ -427,6 +430,35 @@ html {
 }
 .main .grid .container .blocks .content .steep-basic .basic .basic-heading .tools {
   padding: 0 8px;
+  position: relative;
+}
+.main .grid .container .blocks .content .steep-basic .basic .basic-heading .tools .config-option.open {
+  display: block;
+}
+.main .grid .container .blocks .content .steep-basic .basic .basic-heading .tools .config-option {
+  display: none;
+  position: absolute;
+  left: -88px;
+  top: 25px;
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+          box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+  border-radius: 6px;
+}
+.main .grid .container .blocks .content .steep-basic .basic .basic-heading .tools .config-option a {
+  color: #8b8d8f;
+  line-height: 30px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+}
+.main .grid .container .blocks .content .steep-basic .basic .basic-example-step.close {
+  display: none;
+}
+.main .grid .container .blocks .content .steep-basic .basic .basic-example-step.close ~ .basic {
+  height: 50px;
 }
 .main .grid .container .blocks .content .steep-basic .basic .basic-example-step {
   padding: 18px;
@@ -473,6 +505,9 @@ html {
 .main .grid .container .blocks .content .steep-basic .basic .basic-example-step .list-btn .btn {
   margin-left: 14px;
 }
+.main .grid .container .blocks .content .wizard-with-validation .validation.close {
+  display: none;
+}
 .main .grid .container .blocks .content .wizard-with-validation .validation {
   background-color: #fff;
 }
@@ -499,9 +534,37 @@ html {
 }
 .main .grid .container .blocks .content .wizard-with-validation .validation .validation-heading .tools {
   padding: 0 8px;
+  position: relative;
+}
+.main .grid .container .blocks .content .wizard-with-validation .validation .validation-heading .tools .config-option-validation.open {
+  display: block;
+}
+.main .grid .container .blocks .content .wizard-with-validation .validation .validation-heading .tools .config-option-validation {
+  display: none;
+  position: absolute;
+  left: -88px;
+  top: 25px;
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+          box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+  border-radius: 6px;
+}
+.main .grid .container .blocks .content .wizard-with-validation .validation .validation-heading .tools .config-option-validation a {
+  color: #8b8d8f;
+  line-height: 30px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+}
+.main .grid .container .blocks .content .wizard-with-validation .validation .validation-example-step.close {
+  display: none;
 }
 .main .grid .container .blocks .content .wizard-with-validation .validation .validation-example-step {
   padding: 18px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 .main .grid .container .blocks .content .wizard-with-validation .validation .validation-example-step .validation-example-step-title {
   margin: 0;

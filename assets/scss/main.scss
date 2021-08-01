@@ -378,6 +378,9 @@ html{
                                 margin-top: 18px;
                             }
                         }
+                        .basic.close{
+                            height: 50px;
+                        }
                         .basic{
                             margin-right: -15px;
                             margin-left: 15px;
@@ -399,10 +402,38 @@ html{
                                 }
                                 .tools{
                                     padding: 0 8px;
+                                    position: relative;
+                                    .config-option.open{
+                                        display: block;
+                                    }
+                                    .config-option{
+                                        display: none;
+                                        position: absolute;
+                                        left: -88px;
+                                        top: 25px;
+                                        width: 200px;
+                                        background-color: #fff;
+                                        padding: 20px;
+                                        box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+                                        border-radius: 6px;
+                                        a{
+                                            color: #8b8d8f;
+                                            line-height: 30px;
+                                            text-decoration: none;
+                                            display: block;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                            .basic-example-step.close{
+                                display: none;
+                                ~ .basic{
+                                    height: 50px;
                                 }
                             }
                             .basic-example-step{
-                                padding: 18px; 
+                                padding: 18px;
                                 .basic-example-step-title{
                                     margin: 0;
                                     font-size: 15px;
@@ -449,6 +480,9 @@ html{
                         }
                     }
                     .wizard-with-validation{
+                        .validation.close{
+                            display: none;
+                        }
                         .validation{
                             background-color: #fff;
                             .validation-heading{
@@ -467,10 +501,36 @@ html{
                                 }
                                 .tools{
                                     padding: 0 8px;
+                                    position: relative;
+                                    .config-option-validation.open{
+                                        display: block;
+                                    }
+                                    .config-option-validation{
+                                        display: none;
+                                        position: absolute;
+                                        left: -88px;
+                                        top: 25px;
+                                        width: 200px;
+                                        background-color: #fff;
+                                        padding: 20px;
+                                        box-shadow: 0 0 10px rgba(20, 8, 8, 0.3);
+                                        border-radius: 6px;
+                                        a{
+                                            color: #8b8d8f;
+                                            line-height: 30px;
+                                            text-decoration: none;
+                                            display: block;
+                                            font-weight: 400;
+                                        }
+                                    }
                                 }
+                            }
+                            .validation-example-step.close{
+                                display: none;
                             }
                             .validation-example-step{
                                 padding: 18px; 
+                                transition: all 0.5s linear;
                                 .validation-example-step-title{
                                     margin: 0;
                                     font-size: 28px;
