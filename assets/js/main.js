@@ -29,7 +29,7 @@ close_validation.addEventListener("click", ()=>{
 
 up_down_basic.addEventListener("click", ()=>{
   basic_example_step.classList.toggle("close");
-  basic.classList.toggle("close");
+  basic.classList.toggle("close-basic-example-step");
 });
 
 up_down_validation.addEventListener("click", ()=>{

@@ -398,6 +398,9 @@ html {
   margin-top: 18px;
 }
 .main .grid .container .blocks .content .steep-basic .basic.close {
+  display: none;
+}
+.main .grid .container .blocks .content .steep-basic .basic.close-basic-example-step {
   height: 50px;
 }
 .main .grid .container .blocks .content .steep-basic .basic {
